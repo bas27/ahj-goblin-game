@@ -1,0 +1,34 @@
+body {
+    color: #999;
+}
+
+.card {
+    width: 900px;
+    margin-bottom: 0;
+  }
+  
+  .goblin-game {
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .status {
+    margin-bottom: 20px;
+  }
+  .goblin {
+    width: 150px;
+    height: 150px;
+    margin: 0 15px 30px;
+    background: gray;
+    /* border-radius: 50%; */
+  }
+  
+  .goblin_has-goblin {
+    background-image: url(https://github.com/netology-code/ahj-homeworks/blob/video/dom/pic/goblin.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: brown; */
+  }
