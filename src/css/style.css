@@ -1,21 +1,11 @@
-.
-
 .card {
-    width: 800px;
-    padding: 20px 30px;
-    margin: 0 auto 30px;
-    background-color: #fff;
-    border-radius: 5px;
-  }
-
-.card {
-    width: 800px;
+    width: 720px;
     margin-bottom: 0;
   }
   
   .goblin-game {
-    width: 150px;
-    display: box;
+    width: 720px;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
@@ -24,11 +14,11 @@
     margin-bottom: 20px;
   }
   .goblin {
-    width: 150px;
-    height: 150px;
-    margin: 0 15px 30px;
+    width: 120px;
+    height: 120px;
+    margin: 0 15px 15px;
     background: grey;
-    border-radius: 50%;
+    border-radius: 30%;
   }
   
   .goblin_has-goblin {
@@ -36,5 +26,5 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: rgb(2, 0, 136);
+    background-color: grey;
   }
